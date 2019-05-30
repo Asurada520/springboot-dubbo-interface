@@ -4,8 +4,8 @@ import com.ybzbcq.model.TUser;
 
 public interface TUserService {
 
-    public String sayHI(String id);
+    public String sayHI(String name);
 
-    public TUser getUserById(String id);
+    public TUser getUserById(Integer id);
 
 }
